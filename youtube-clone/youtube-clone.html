@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class= "hamburger-menu" src="images/icons/hamburger_menu.svg">
+                <div class="youtube-logo-container">
+                    <a href="http://www.youtube.com/" target = blank rel="noopener">
+                        <img class= "youtube-logo" src="images/icons/youtube_logo.svg" > 
+                    </a>
+                    <div class="tooltip">YouTube Home</div>   
+                </div>
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="images/icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button > 
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="images/icons/voice_search_icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="images/icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="apps-icon-container">
+                    <img class="youtube-apps-icon" src="images/icons/youtube_apps.svg">
+                    <div class="tooltip">Apps</div>
+                </div>
+                <div class="notifications-container">
+                    <img class="notifications-icon" src="images/icons/notifications.svg">
+                    <div class="notifications-count"> 3 </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <div class="user-picture-container">
+                    <img class="current-user-picture" src="images/profile-pictures/bojarojujo.jpg">
+                    <div class="tooltip">Your Channel</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="images/icons/home.svg">
+                <div>Home</div>   
+            </div>
+            <div class="sidebar-link">
+                <img src="images/icons/explore.svg">
+                <div>Explore</div>    
+            </div>
+            <div class="sidebar-link">
+                <img src="images/icons/subscriptions.svg">
+                <div>Subscriptions</div>   
+            </div>
+            <div class="sidebar-link">
+                <img src="images/icons/originals.svg">
+                <div>Originals</div>    
+            </div>
+            <div class="sidebar-link">
+                <img src="images/icons/youtube_music.svg">
+                <div>Youtube Music</div>   
+            </div>
+            <div class="sidebar-link">
+                <img src="images/icons/library.svg">
+                <div>Library</div>   
+            </div>  
+        </div>
+
+        <div class="video-grid">
+            <!-- Smosh - Zelda Rap -->
+            <div>
+                <div class = "thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/smosh_zelda.webp">
+                    <div class="video-time">3:34</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/smosh.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            THE LEGEND OF ZELDA RAP [MUSIC VIDEO]
+                        </p>
+                        <p class="video-stats">
+                            81M views &#183; 11 years ago
+                        </p>
+                        <p class="video-author">
+                            Smosh &#x2713;
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Creeper - Be My End -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/creeper_be_my_end.webp">
+                    <div class="video-time">3:16</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/creeper.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            Creeper - Be My End (Official Video)
+                        </p>
+                        <p class="video-stats">
+                            424K views &#183; 3 years ago
+                        </p>
+                        <p class="video-author">
+                            Creeper &#119136;
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Datto - 3 Brain Cells -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/datto_3_brain_cells.webp">
+                    <div class="video-time">18:33</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/datto.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            3 Brain Cells Try to Pass The Immortal Exam
+                        </p>
+                        <p class="video-stats">
+                            40K views &#183; 2 months ago
+                        </p>
+                        <p class="video-author">
+                            Datto &#x2713;
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Geno Samuel - Chris Chan -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/geno_samuel_chris_chan_pt1.webp">
+                    <div class="video-time">40:25</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/geno-samuel.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            Chris Chan: A Comprehensive History - Part 1
+                        </p>
+                        <p class="video-stats">
+                            4.7M views &#183; 4 years ago
+                        </p>
+                        <p class="video-author">
+                            GenoSamuel2.1
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Linus - China -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/Linus_China.webp">
+                    <div class="video-time">24:41</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/linus.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            Building a PC CHEAPER in CHINA?! feat. Strange Parts
+                        </p>
+                        <p class="video-stats">
+                            14M views &#183; 5 years ago
+                        </p>
+                        <p class="video-author">
+                            Linus Tech Tips &#x2713;
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Ludwig - Taco Bell -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/ludwig_taco_bell.webp">
+                    <div class="video-time">22:19</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/ludwig.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            I Forced a British Man to eat Everything at Taco Bell
+                        </p>
+                        <p class="video-stats">
+                            863K views &#183; 7 days ago
+                        </p>
+                        <p class="video-author">
+                            Ludwig &#x2713
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Michael Reeves - Roomba -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/michael_reeves_roomba.webp">
+                    <div class="video-time">10:59</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/michael_reeves.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            The Roomba That Screams When it Bumps Into Stuff
+                        </p>
+                        <p class="video-stats">
+                            26M views &#183; 4 years ago
+                        </p>
+                        <p class="video-author">
+                            Michael Reeves &#x2713
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Penguinz0 - Podcast -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/penguinz0_official_podcast_172.webp">
+                    <div class="video-time">1:28:19</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/penguinz0.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            The Official Podcast #172: SomeOrdinaryGamers
+                        </p>
+                        <p class="video-stats">
+                            704K views &#183; 3 years ago
+                        </p>
+                        <p class="video-author">
+                            penguinz0 &#x2713
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- jschlattLIVE - Game -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/schlagg_made_this_game_awful.webp">
+                    <div class="video-time">24:41</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/jschlattlive.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            We made this game AWFUL.
+                        </p>
+                        <p class="video-stats">
+                            10M views &#183; 2 years ago
+                        </p>
+                        <p class="video-author">
+                            jschlattLIVE &#x2713
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- SuperSimpleDev - Html -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/supersimpledev_html.webp">
+                    <div class="video-time">6:31:24</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/supersimpledev.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            HTML & CSS Full Course - Beginner to Pro
+                        </p>
+                        <p class="video-stats">
+                            7M views &#183; 1 year ago
+                        </p>
+                        <p class="video-author">
+                            SuperSimpleDev
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Techmoan - MicroMV -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/techmoan_micromv.webp">
+                    <div class="video-time">35:094</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/techmoan.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            MicroMV and me - Tiny Videotape, big impact
+                        </p>
+                        <p class="video-stats">
+                            312K views &#183; 11 months ago
+                        </p>
+                        <p class="video-author">
+                            Techmoan &#x2713
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+
+            <!-- D!NG - Deltahedron -->
+            <div>
+                <div class="thumbnail-row">
+                    <img class = "thumbnail" src="images/thumbnails/vsauce_deltahedron.webp">
+                    <div class="video-time">22:16</div>
+                </div>
+                <div class="video-info">
+                    <div>
+                        <img class = "profile-picture" src="images/profile-pictures/d!ng.jpg">
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            Every Strictly-Convex Deltahedron
+                        </p>
+                        <p class="video-stats">
+                            2.3M views &#183; 5 years ago
+                        </p>
+                        <p class="video-author">
+                            D!NG
+                        </p>   
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    </body>
+    </html>
